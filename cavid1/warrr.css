@@ -1,0 +1,107 @@
+body{
+    font: 14px/1.7 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 15px;
+}
+#all{
+padding: 15px;
+width: 60%;
+margin: auto;
+}
+
+.logo span{
+color: bisque;
+
+}
+.header{
+display: flex;
+justify-content: space-between;
+}
+.about{
+background: orange;
+display: flex;
+
+}
+.abooutleft{
+padding: 15px;
+}
+.abooutleft button{
+padding: 15px 35px;
+background: white;
+COLOR:#000;
+border: none;
+border-radius: 20px;
+}
+.abooutleft h1{
+color: white;
+
+}
+.aboutitem{
+flex:1
+}
+.info-item1{
+padding:15px 0;
+}
+#info{
+    margin-top: 40px;
+display: flex;
+}
+#info .info-item{
+padding: 15px;
+
+}
+.info-item1 span,.info-item span{
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.info-item1 p,.info-item p{
+    color: teal;
+}
+.blog{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.blog-item{
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    
+}
+.blog-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: orange;
+    opacity: 0.6;
+    display: none;
+}
+.blog-item:hover .blog-box{
+    display: block;
+}
+.blog-item img{
+border-bottom: 2px solid orange;
+
+}
+.vlog-item{
+    position: relative;
+    flex: 1;
+    margin: 10;
+    border: 1px solid rgb(189, 197, 212);
+    margin: 10px;
+}
+
+.vlog{
+    display: flex;
+}
